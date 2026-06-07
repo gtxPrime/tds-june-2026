@@ -30,7 +30,7 @@ jobs:
           data = requests.get('http://api.open-notify.org/iss-now.json').text
           with open('iss-location.jsonl', 'a') as f:
               f.write(data + '\n')
-          'EOF'
+          EOF
 
       - name: Commit and push changes
         run: | # shell
