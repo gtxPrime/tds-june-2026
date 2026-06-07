@@ -16,6 +16,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: '24f1000625@ds.study.iitm.ac.in'
+        run: echo "Hello, world!"
+
       - name: Install uv
         uses: astral-sh/setup-uv@v5
 
